@@ -1,4 +1,4 @@
-### 青龙拉库命令
+### 青龙拉库命令~
 
 ```shell
 ql repo https://github.com/Qcby/elelm.git "^ele" "" "USER|common|ql|sendNotify1"
