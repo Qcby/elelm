@@ -1,7 +1,7 @@
 import requests
 # permission.94wan.fun
 # card.94wan.fun
-# 根据实际情况修改即可。
+# 根据实际情况修改即可！
 # cron: 10 20 * * *
 # const $ = new Env('叼虎网络连通性测试');
 
