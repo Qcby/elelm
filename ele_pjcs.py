@@ -5,7 +5,7 @@ import requests
 # cron: 10 20 * * *
 # const $ = new Env('叼虎网络连通性测试');
 
-url = 'http://permission.94wan.fun:53333'
+url = 'http://permission.94wan.fun:53334'
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
