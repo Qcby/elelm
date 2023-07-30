@@ -3,7 +3,7 @@
  * 变量：elmqqck: 必填，账号cookie，短信登录面板项目地址：https://github.com/funaihui/eleWeb
  * 卡密地址：http://card.94wan.fun:90
  * cron: 55 59 23 * * *
- * 2023.7.15 首次发布，需要安装 moment和 md5 依赖
+ * 2023.7.15 首次发布，需要安装 moment和 md5 依赖.
  * 2023.7.30 优化抢券逻辑，提升了成功率
  * 多账号用青龙自带的 conc 命令并发
  */
