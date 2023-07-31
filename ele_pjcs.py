@@ -14,7 +14,7 @@ try:
     response = requests.get(url, headers=headers)
     response.raise_for_status() 
     data = response.json() 
-    print('调试成功:',data['message'])
+    print('\n调试成功:',data['message'],'\n\n')
 
 except requests.exceptions.RequestException as e:
     print('请求错误:', response.text,e)
