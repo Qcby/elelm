@@ -211,7 +211,7 @@ async function sendNotify(
     text,
     desp,
     params = {},
-    author = '\n\n欢迎使用叼虎Plus版,爱你们的大吉儿！',
+    author = '\n\n欢迎使用叼虎Plus版,爱你们的大吉儿！![更新](https://file.uhsea.com/2308/76021b99ce1db379dac10caa727cca2a04.gif)',
 ) {
     //提供6种通知
     if (process.env.pushDesc){
