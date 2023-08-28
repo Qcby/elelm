@@ -5,7 +5,7 @@ HS = os.environ.get('HOST')
 
 if HS is not None:
     print(f"青龙 HOST 环境变量是: {HS}")
-    url = '{HS}'
+    url = HS
 else:
     url = 'http://permission.94wan.fun:53334'
     print("未找到青龙 HOST 环境变量,默认使用",url,"访问")
