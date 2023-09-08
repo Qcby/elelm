@@ -1,10 +1,7 @@
 /**
- * @平行绳 飞机频道：https://t.me/tigerorrose
- * 变量：elmck: 必填，账号cookie，短信登录面板项目地址：https://github.com/funaihui/eleWeb
- * 卡密变量：ELE_TTCJ_CARME 填自己购买的卡密。卡密网站：http://card.94wan.fun:90/buy/4
+ * 卡密变量：ELE_TTCJ_CARME 填卡密
  * cron 0 6 6 * * *
  * 需要设置环境变量 ownCookie 这个是需要助力账号的 cookie。
- * 2023.6.29 更新：首次发布；
  */
 
 const $ = new Env('饿了么天天抽奖');
