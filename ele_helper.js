@@ -1,14 +1,9 @@
 /**
- * @平行绳 飞机频道：https://t.me/tigerorrose
  * 变量：ownerId: 自己二维码里面的 inviterId 字段
  * 变量：ELE_FANLI_TIME：配置 邀请好友的间隔时间，格式 1-10，随机延时1到 10 秒
  * 变量：ELE_UA：饿了么域名请求头里面的 user-agent
  * 定时随意，每天跑一遍就可以
  * cron: 7 6 * * *
- * 2023.6.26 更新：修复User-Agent 错误，需要自己设置环境变量ELE_UA；
- * 2023.6.30 更新：修复User-Agent 错误，删除环境变量ELE_UA；
- * 2023.7.7 更新：增加检测账号的有效性，解决 Header 中 cookie 报错
- * 2023.7.9 更新：修复Error: getaddrinfo EAI_ AGAIN
  */
 const $ = new Env('饿了么天天赚现金');
 
