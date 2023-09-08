@@ -1,12 +1,8 @@
 /**
- * @平行绳 飞机频道：https://t.me/tigerorrose
- * 抢券变量：elmqqck 需要抢券的 ck
- * 定时建议提前5秒，多账号用 conc elmqqck 并发
+ * 变量：elmqqck: 必填，账号cookie
  * cron: 55 59 23 * * *
- * 2023.7.11 首次发布
- * 2023.7.30 优化抢券逻辑，提升了成功率
- * 2023.8.17 内置定时，23:59:58 开始抢券；显示 USERID
- * 环境变量：couponValue 可以设置抢券的面值，默认是 39
+ * 多账号用青龙自带的 conc 命令并发
+ * 需要安装 moment和 md5 依赖
  * 环境变量：threadCount 可以设置多线程抢券，默认 1
  */
 const $ = new Env('饿了么抢券');
