@@ -1,11 +1,8 @@
 /**
- * @平行绳 飞机频道：https://t.me/tigerorrose
- * 变量：ELE_CARME：自己购买的卡密
  * 定时随意，每天跑一遍就可以
  * cron: 0 22 * * *
- * 2023.7.10 更新：首次发版， 目前推送今日乐园币，总吃货豆和钱包余额
+ * 推送今日乐园币，总吃货豆和钱包余额
  * 推送 wxpush，要求 cookie 里面有 wxUid,如'unb=xxx;cookie2=xxxUSERID=xx;SID=xxx;wxUid=xx;'
- * 2023.8.25 更新：增加自动续期 ck 功能
  */
 const $ = new Env('饿了么资产推送');
 
