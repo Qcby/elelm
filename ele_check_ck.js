@@ -1,9 +1,6 @@
 /**
- * 变量:elmck: 必填，账号cookie，短信登录面板项目地址：https://github.com/funaihui/eleWeb
- * ELE_CARME：必填，卡密 购买地址：http://card.94wan.fun:90
+ * 变量:elmck: 必填，账号cookie
  * cron:11 0-23/4 * * *
- * 2023.6.16 更新：修改变量名
- * 2023.7.7 更新：添加失效推送；不跳过禁用账号，检测全部，防止失效后复活还在禁用
  * 配置变量export WX_PUSH_TOKEN="";wxpusher 创建应用的 token
  * 2030.7.9 更新：wxPush 失效推送添加备注，更清楚的知道是哪个账号失效了
  */
