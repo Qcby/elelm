@@ -1,7 +1,4 @@
 /**
- * @平行绳 飞机频道：https://t.me/tigerorrose
- * 变量：elmck: 必填，账号cookie，短信登录面板项目地址：https://github.com/funaihui/eleWeb
- * 卡密地址：http://card.94wan.fun:90
  * cron: 11 10 * * *
  * 默认延时 30 秒执行下一个账号，可以通过设置 export sq_wait_time=30 来修改延时时间
  */
