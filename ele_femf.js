@@ -1,8 +1,5 @@
 /**
- * @平行绳 飞机频道：https://t.me/tigerorrose
- * 变量：elmck: 必填，账号cookie，短信登录面板项目地址：https://github.com/funaihui/eleWeb
  * cron 0 5 5 * * *
- * 2023.8.9 更新：首次发布；
  */
 
 const $ = new Env('饿了么福尔魔方');
