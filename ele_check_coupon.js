@@ -1,8 +1,6 @@
 /**
- * @平行绳 飞机频道：https://t.me/tigerorrose
- * 变量：elmqqck: 必填，账号cookie，短信登录面板项目地址：https://github.com/funaihui/eleWeb
+ * 变量：elmqqck: 必填，账号cookie
  * cron 1 1 1 1 1
- * 2023.9.8 更新：首次发布；
  */
 
 const $ = new Env('饿了么查询抢券结果');
