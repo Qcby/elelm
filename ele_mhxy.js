@@ -1,9 +1,7 @@
 /**
- * @平行绳 飞机频道：https://t.me/tigerorrose
- * 变量：elmck: 必填，账号cookie，短信登录面板项目地址：https://github.com/funaihui/eleWeb
- * cron 1 1 1 1 1
+ * 变量：elmck: 必填，账号cookie
+ * cron 7 8,14,20 * * *
  * 需要手动玩到四级才能跑
- * 2023.9.12 更新：首次发布；
  */
 
 const $ = new Env('饿了么梦幻小院');
