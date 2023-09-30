@@ -1,5 +1,4 @@
 /**
- * @平行绳
  * 变量：elmqqck: 必填，账号cookie
  * 项目地址：https://github.com/pingxian/elm
 *  cron: 55 49 09 * * *
